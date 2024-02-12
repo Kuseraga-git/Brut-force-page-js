@@ -6,3 +6,14 @@ document.getElementById('validateButton').addEventListener('click', function() {
 });
 
 // Codez en dessous
+for (let i = 0; i <= 9; i++){
+    for (let j = 0; j <= 9; j++){
+        for (let k = 0; k <= 9; k++){
+            if (CheckCombinaison(i, j, k) == true) {
+                i = 10
+                j = 10
+                k = 10
+            }
+        }
+    }
+}
